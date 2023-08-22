@@ -1,0 +1,120 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+   
+    
+    <style>
+        body{
+
+            /* box-sizing: border-box; */
+            margin: -20px;
+            padding: 0%;
+            background-color: black;
+            color: white;
+
+        }
+
+        header::before {
+            content: "";
+            background: url('alberta-gf68c89b99_640.jpg') no-repeat center center/cover;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            top: 0%;
+            left: 0%;
+            opacity: 0.5;
+        }
+
+        .navigation {
+            font-family: 'Instrument Serif', serif;
+             font-size: 20px;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 34px 23px;
+        }
+        h1{
+            text-align: center;
+            margin: 2px;
+            color: brown;
+        }
+        .form-group{
+            /* color: rgb(59, 233, 20); */
+            padding: 9px 344px;
+            margin: -9px;
+        }
+       #register-box input,
+       #register-box textarea{
+        width: 100%;
+        padding: 0.3rem;
+       }
+       .btn{
+        text-align: center;
+        padding: 9px 583px;
+        margin: -14px;
+      
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About us</li>
+                <li class="item">Services</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+    </header>
+   <section id="contact">
+    
+        <h1 class="primary">
+            Register Your Form
+        </h1>
+<div id="register-box">
+    <form action="">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="Name" id="Name" placeholder="Enter your name">
+        </div>
+      
+        <div class="form-group">
+            <label for="name">Email-Id</label>
+            <input type="text" name="Email-Id" id="Name" placeholder="Enter your Email-Id">
+        </div>
+        <div class="form-group">
+            <label for="name">Phone no.</label>
+            <input type="text" name="Phone no." id="Name" placeholder="Enter your Phone no.">
+        </div>
+        <div class="form-group">
+            <label for="name">About Yourself:</label>
+            <textarea name="About Yourself" id="About Yourself" cols="30" rows="10"></textarea>
+            
+        </div>
+        <div class="btn">
+           
+            <input type="submit" value="SUBMIT NOW">
+        </div>
+        <div class="btn">
+           
+            <input type="reset" value="RESET">
+        </div>
+    </form>
+  
+</div>
+   </section>
+</body>
+
+</html>
